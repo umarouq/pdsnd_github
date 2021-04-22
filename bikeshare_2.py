@@ -25,7 +25,7 @@ def get_filters():
         else:
             break
 
-        # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january to june)
         
     while True:
         month = input("Name of the month: (all, january to june)").lower()
@@ -34,7 +34,7 @@ def get_filters():
         else:
             break
 
-        # get user input for day of week (all, monday to sunday)
+    # get user input for day of week (all, monday to sunday)
 
     while True:
         day = input("Name of the week: (all, monday, tuesday, ... sunday)").lower()
