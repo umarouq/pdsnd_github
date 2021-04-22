@@ -21,7 +21,7 @@ def get_filters():
     while True:
         city = input("Name of the city: (chicago, new york city, or washington)").lower()
         if city not in ('chicago', 'new york city', 'washington'):
-            print("Not on the list of cities")
+            print("Not on the list of cities (chicago, new york city or washington)")
         else:
             break
 
