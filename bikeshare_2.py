@@ -21,20 +21,20 @@ def get_filters():
     while True:
         city = input("Name of the city: (chicago, new york city, or washington)").lower()
         if city not in ('chicago', 'new york city', 'washington'):
-            print("Not on the list of cities")
+            print("Not on the list of cities (chicago, new york city or washington)")
         else:
             break
 
         # get user input for month (all, january, february, ... , june)
         
     while True:
-        month = input("Name of the month: (all, january, february, ... , june)").lower()
+        month = input("Name of the month: (all, january to june)").lower()
         if month not in ('all', 'january', 'february','march', 'april', 'may','june'):
             print("Not on the list of months")
         else:
             break
 
-        # get user input for day of week (all, monday, tuesday, ... sunday)
+        # get user input for day of week (all, monday to sunday)
 
     while True:
         day = input("Name of the week: (all, monday, tuesday, ... sunday)").lower()
